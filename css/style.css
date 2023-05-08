@@ -178,7 +178,7 @@
 /*---------/grayscale---------*/
 /*header*/
 /*.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
-  background-color: #ee2524;
+  background-color: #143a5f;
 }*/
 /*product_list*/
 /*scg stories*/
@@ -295,6 +295,7 @@ body {
   padding: 0;
   margin: 0;
 }
+
 article {
   display: block;
 }
@@ -314,7 +315,7 @@ figure {
 }
 footer {
   display: block;
-  background-color: #ee2524;
+  background-color: #143a5f;
   padding: 50px 0 0 0;
   color: #fff;
   border-top: 1px solid #D40A0A;
@@ -4878,10 +4879,10 @@ tbody.collapse.in {
   transition: all 0.3s ease-in;
 }
 .dropdown-menu li a:hover {
-  background-color: #ee2524;
+  background-color: #143a5f;
 }
 .dropdown-menu li a:focus {
-  background-color: #ee2524;
+  background-color: #143a5f;
 }
 .dropdown-menu.pull-right {
   right: 0;
@@ -5809,11 +5810,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   transition: all 0.3s ease-in;
 }
 .navbar-nav li .dropdown_menu li a:hover {
-  background-color: #ee2524;
+  background-color: #143a5f;
   color: #fff;
 }
 .navbar-nav li .dropdown_menu li a:focus {
-  background-color: #ee2524;
+  background-color: #143a5f;
   color: #fff;
 }
 .navbar-nav li .dropdown_menu .has_child {
@@ -5824,7 +5825,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-nav li .dropdown_menu .has_child > a::after {
   content: '>';
-  color: #EE2524;
+  color: #143a5f;
   float: right;
 }
 .navbar-nav li .dropdown_menu .has_child ul {
@@ -5866,7 +5867,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-nav li .dd_group .group ul .head {
   text-align: center;
-  border-bottom: 4px solid #ee2524;
+  border-bottom: 4px solid #143a5f;
   font-weight: bold;
   padding: 5px 0 !important;
   margin-bottom: 10px;
@@ -6015,7 +6016,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-inverse {
   background-color: #222;
   border-color: #080808;
-  background-color: #ee2524;
+  background-color: #143a5f;
 }
 .navbar-inverse .navbar-brand {
   color: #9d9d9d;
@@ -6122,7 +6123,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-inverse .navbar-collapse {
   border-color: #101010;
-  background-color: #ee2524;
+  background-color: #143a5f;
   border-color: transparent;
   padding: 0;
   margin: 0;
@@ -8441,7 +8442,7 @@ div {
   z-index: 3;
 }
 .header_fix {
-  background-color: #ee2524 !important;
+  background-color: #143a5f !important;
   background: transparent;
   width: 100%;
   position: fixed !important;
@@ -8466,7 +8467,7 @@ div {
   left: 10px;
 }
 .header_fix .navbar-collapse {
-  background-color: #ee2524 !important;
+  background-color: #143a5f !important;
 }
 .header_fix .navbar-collapse .navbar-nav li {
   -webkit-transition: all 0.3s ease-in;
@@ -8518,7 +8519,7 @@ div {
   font-size: 18px;
   padding: 10px 20px;
   margin: 20px;
-  color: #ee2524;
+  color: #143a5f;
   font-family: 'scgbold';
   border: 1px solid #bbb;
   cursor: pointer;
@@ -8527,7 +8528,7 @@ div {
   transition: all 0.3s ease-in;
 }
 .product_list ul li:hover {
-  border: 1px solid #ee2524;
+  border: 1px solid #143a5f;
 }
 .product_list .input-group {
   margin: 40px 0 20px;
@@ -8544,7 +8545,7 @@ div {
   transition: all 0.3s ease-in;
 }
 .product_list .input-group button:hover {
-  color: #ee2524;
+  color: #143a5f;
 }
 .product_list .input-group button:focus {
   outline: none;
@@ -8572,7 +8573,7 @@ div {
 }
 .product_list h1 strong {
   font-family: 'scgbold';
-  color: #ee2524;
+  color: #143a5f;
 }
 .product_list p {
   font-size: 14px;
@@ -8596,7 +8597,7 @@ div {
 .product_list .hd_pro .bll {
   display: table;
   width: 100%;
-  background-color: #ee2524;
+  background-color: #143a5f;
   -webkit-box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1) 3px 5px rgba(0, 0, 0, 0.5);
   box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1) 3px 5px rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1);
@@ -8643,7 +8644,7 @@ div {
 .product_list .bl .bll h2 {
   font-family: 'scgbold';
   font-size: 18px;
-  color: #ee2524;
+  color: #143a5f;
   padding: 20px 20px 8px;
   margin: 0;
 }
@@ -8670,7 +8671,7 @@ div {
   top: 3px;
 }
 .product_list .bl .bll .more_info:hover {
-  color: #ee2524 !important;
+  color: #143a5f !important;
 }
 .product_list .pro_more {
   text-align: center;
@@ -9219,7 +9220,7 @@ div {
 }
 .content_sl .read_more {
   display: inline-block;
-  background-color: #ee2524;
+  background-color: #143a5f;
   font-family: 'scgbold';
   font-size: 16px;
   padding: 5px 40px;
@@ -9230,7 +9231,7 @@ div {
 }
 .content_sl .read_more:hover {
   background-color: #fff;
-  color: #ee2524 !important;
+  color: #143a5f !important;
 }
 .scg_stories {
   width: 100%;
@@ -9284,7 +9285,7 @@ div {
 }
 .scg_stories .slide .more_info {
   display: inline-block;
-  background-color: #ee2524;
+  background-color: #143a5f;
   font-family: 'scgbold';
   font-size: 16px;
   padding: 10px 20px;
@@ -9296,7 +9297,7 @@ div {
 }
 .scg_stories .slide .more_info:hover {
   background-color: #fff !important;
-  color: #ee2524 !important;
+  color: #143a5f !important;
 }
 .scg_stories .p_scg_t {
   position: absolute;
@@ -9384,7 +9385,7 @@ div {
 }
 #business_overview .cement .wow div h1 strong {
   font-family: 'scgbold';
-  color: #ee2524;
+  color: #143a5f;
 }
 #business_overview .cement .wow div p {
   font-size: 20px;
@@ -9395,7 +9396,7 @@ div {
 }
 #business_overview .cement .wow div .more_info {
   display: inline-block;
-  background-color: #ee2524;
+  background-color: #143a5f;
   font-family: 'scgbold';
   font-size: 16px;
   padding: 10px 20px;
@@ -9407,7 +9408,7 @@ div {
 }
 #business_overview .cement .wow div .more_info:hover {
   background-color: #fff !important;
-  color: #ee2524 !important;
+  color: #143a5f !important;
 }
 #business_overview .cement .wow div .cfi {
   border-bottom: 1px solid #C1BABA;
@@ -9471,7 +9472,7 @@ div {
 }
 #business_overview .chemicals .wow div h1 strong {
   font-family: 'scgbold';
-  color: #ee2524;
+  color: #143a5f;
 }
 #business_overview .chemicals .wow div p {
   font-size: 20px;
@@ -9482,7 +9483,7 @@ div {
 }
 #business_overview .chemicals .wow div .more_info {
   display: inline-block;
-  background-color: #ee2524;
+  background-color: #143a5f;
   font-family: 'scgbold';
   font-size: 16px;
   padding: 10px 20px;
@@ -9494,7 +9495,7 @@ div {
 }
 #business_overview .chemicals .wow div .more_info:hover {
   background-color: #fff !important;
-  color: #ee2524 !important;
+  color: #143a5f !important;
 }
 #business_overview .chemicals .wow div .cfi {
   border-bottom: 1px solid #C1BABA;
@@ -9508,7 +9509,7 @@ div {
   color: #333 !important;
 }
 #business_overview .operating_results {
-  background-color: #ee2524;
+  background-color: #143a5f;
   min-height: 470px;
   padding: 50px 0 70px;
   position: relative;
@@ -9567,7 +9568,7 @@ div {
   transition: all 0.2s ease;
 }
 #business_overview .operating_results #tab_meet a:hover {
-  color: #ee2524;
+  color: #143a5f;
 }
 #business_overview .operating_results #tab_meet .active a {
   font-family: 'scgbold';
@@ -9589,7 +9590,7 @@ div {
 }
 #business_overview .operating_results .tab-content h2 {
   font-family: 'scgbold';
-  color: #ee2524;
+  color: #143a5f;
   font-family: 32px !important;
   margin: 0 0 20px !important;
 }
@@ -9654,7 +9655,7 @@ div {
 }
 #business_overview .packaging .wow div h1 strong {
   font-family: 'scgbold';
-  color: #ee2524;
+  color: #143a5f;
 }
 #business_overview .packaging .wow div p {
   font-size: 20px;
@@ -9665,7 +9666,7 @@ div {
 }
 #business_overview .packaging .wow div .more_info {
   display: inline-block;
-  background-color: #ee2524;
+  background-color: #143a5f;
   font-family: 'scgbold';
   font-size: 16px;
   padding: 10px 20px;
@@ -9677,7 +9678,7 @@ div {
 }
 #business_overview .packaging .wow div .more_info:hover {
   background-color: #fff !important;
-  color: #ee2524 !important;
+  color: #143a5f !important;
 }
 #business_overview .packaging .wow div .cfi {
   border-bottom: 1px solid #C1BABA;
@@ -9721,7 +9722,7 @@ div {
 }
 #business_overview .business .wow div h1 strong {
   font-family: 'scgbold';
-  color: #ee2524;
+  color: #143a5f;
 }
 #business_overview .business .wow div p {
   font-size: 20px;
@@ -9732,7 +9733,7 @@ div {
 }
 #business_overview .business .wow div .more_info {
   display: inline-block;
-  background-color: #ee2524;
+  background-color: #143a5f;
   font-family: 'scgbold';
   font-size: 16px;
   padding: 10px 20px;
@@ -9744,7 +9745,7 @@ div {
 }
 #business_overview .business .wow div .more_info:hover {
   background-color: #fff !important;
-  color: #ee2524 !important;
+  color: #143a5f !important;
 }
 #business_overview .business .wow div .cfi {
   border-bottom: 1px solid #C1BABA;
@@ -9790,11 +9791,11 @@ div {
   transition: all 0.2s ease;
 }
 .investor_relations .s_main .bx a:hover {
-  color: #ee2524 !important;
+  color: #143a5f !important;
   text-decoration: initial;
 }
 .investor_relations .s_main .bx a:active {
-  color: #ee2524 !important;
+  color: #143a5f !important;
   text-decoration: initial;
 }
 .investor_relations .s_main .bx a .cn {
@@ -9842,7 +9843,7 @@ div {
 }
 .investor_relations .s_main .bx a .cn div a:hover {
   background-color: #fff !important;
-  color: #ee2524 !important;
+  color: #143a5f !important;
 }
 .investor_relations .s_main .al_center {
   text-align: center !important;
@@ -9867,7 +9868,7 @@ div {
   text-transform: uppercase;
 }
 .investor_relations .s_main > div h1 strong {
-  color: #ee2524;
+  color: #143a5f;
 }
 .investor_relations .s_main > div h2 {
   font-size: 30px;
@@ -9879,7 +9880,7 @@ div {
 }
 .investor_relations .s_main > div h2 strong {
   font-family: 'scgbold';
-  color: #ee2524;
+  color: #143a5f;
 }
 .investor_relations .s_main > div .h1 {
   font-size: 70px;
@@ -9887,7 +9888,7 @@ div {
   text-transform: uppercase;
 }
 .investor_relations .s_main > div .h1 strong {
-  color: #ee2524;
+  color: #143a5f;
 }
 .investor_relations .s_main > div p {
   font-size: 18px;
@@ -9899,7 +9900,7 @@ div {
 }
 .investor_relations .s_main > div .more_info {
   display: inline-block;
-  background-color: #ee2524;
+  background-color: #143a5f;
   font-family: 'scgbold';
   font-size: 16px;
   text-transform: uppercase;
@@ -9911,11 +9912,11 @@ div {
 }
 .investor_relations .s_main > div .more_info:hover {
   background-color: #fff !important;
-  color: #ee2524 !important;
+  color: #143a5f !important;
 }
 .investor_relations .s_main > div .share {
   display: inline-block;
-  background-color: #ee2524;
+  background-color: #143a5f;
   font-family: 'scgbold';
   font-size: 16px;
   text-transform: uppercase;
@@ -9927,7 +9928,7 @@ div {
 }
 .investor_relations .s_main > div .share:hover {
   background-color: #fff !important;
-  color: #ee2524 !important;
+  color: #143a5f !important;
 }
 .update {
   background-color: #fff;
@@ -10074,7 +10075,7 @@ div {
   text-transform: uppercase;
 }
 .update .s_main > div h1 strong {
-  color: #ee2524;
+  color: #143a5f;
 }
 .update .s_main > div h2 {
   font-size: 30px;
@@ -10086,7 +10087,7 @@ div {
 }
 .update .s_main > div h2 strong {
   font-family: 'scgbold';
-  color: #ee2524;
+  color: #143a5f;
 }
 .update .s_main > div .h1 {
   font-size: 70px;
@@ -10094,7 +10095,7 @@ div {
   text-transform: uppercase;
 }
 .update .s_main > div .h1 strong {
-  color: #ee2524;
+  color: #143a5f;
 }
 .update .s_main > div p {
   font-size: 18px;
@@ -10106,7 +10107,7 @@ div {
 }
 .update .s_main > div .more_info {
   display: inline-block;
-  background-color: #ee2524;
+  background-color: #143a5f;
   font-family: 'scgbold';
   font-size: 16px;
   text-transform: uppercase;
@@ -10118,11 +10119,11 @@ div {
 }
 .update .s_main > div .more_info:hover {
   background-color: #fff !important;
-  color: #ee2524 !important;
+  color: #143a5f !important;
 }
 .update .s_main > div .share {
   display: inline-block;
-  background-color: #ee2524;
+  background-color: #143a5f;
   font-family: 'scgbold';
   font-size: 16px;
   text-transform: uppercase;
@@ -10134,7 +10135,7 @@ div {
 }
 .update .s_main > div .share:hover {
   background-color: #fff !important;
-  color: #ee2524 !important;
+  color: #143a5f !important;
 }
 .logo_etc {
   background-color: #fff;
@@ -10178,7 +10179,7 @@ div {
   text-transform: uppercase;
 }
 .product_view h1 strong {
-  color: #ee2524;
+  color: #143a5f;
 }
 .product_view h2 {
   font-family: 'scgbold';
@@ -10205,7 +10206,7 @@ div {
   transition: all 0.2s ease;
 }
 .product_view .i1:hover {
-  background-color: #ee2524;
+  background-color: #143a5f;
 }
 .product_view .i1:hover strong {
   color: #fff !important;
@@ -10228,7 +10229,7 @@ div {
   transition: all 0.2s ease;
 }
 .product_view .i2:hover {
-  background-color: #ee2524;
+  background-color: #143a5f;
 }
 .product_view .i2:hover strong {
   color: #fff !important;
@@ -10251,7 +10252,7 @@ div {
   transition: all 0.2s ease;
 }
 .product_view .i3:hover {
-  background-color: #ee2524;
+  background-color: #143a5f;
 }
 .product_view .i3:hover strong {
   color: #fff !important;
@@ -10274,7 +10275,7 @@ div {
   transition: all 0.2s ease;
 }
 .product_view .i4:hover {
-  background-color: #ee2524;
+  background-color: #143a5f;
 }
 .product_view .i4:hover strong {
   color: #fff !important;
@@ -10297,7 +10298,7 @@ div {
   transition: all 0.2s ease;
 }
 .product_view .i5:hover {
-  background-color: #ee2524;
+  background-color: #143a5f;
 }
 .product_view .i5:hover strong {
   color: #fff !important;
@@ -10320,7 +10321,7 @@ div {
   transition: all 0.2s ease;
 }
 .product_view .i6:hover {
-  background-color: #ee2524;
+  background-color: #143a5f;
 }
 .product_view .i6:hover strong {
   color: #fff !important;
@@ -10343,7 +10344,7 @@ div {
   transition: all 0.2s ease;
 }
 .product_view .i7:hover {
-  background-color: #ee2524;
+  background-color: #143a5f;
 }
 .product_view .i7:hover strong {
   color: #fff !important;
@@ -10366,7 +10367,7 @@ div {
   transition: all 0.2s ease;
 }
 .product_view .i8:hover {
-  background-color: #ee2524;
+  background-color: #143a5f;
 }
 .product_view .i8:hover strong {
   color: #fff !important;
@@ -10424,13 +10425,13 @@ div {
   transition: all 0.2s ease;
 }
 .meet #tab_meet a:hover {
-  color: #ee2524 !important;
-  border-bottom: 2px solid #ee2524;
+  color: #143a5f !important;
+  border-bottom: 2px solid #143a5f;
 }
 .meet #tab_meet .active a {
   font-family: 'scgbold';
-  color: #ee2524;
-  border-bottom: 2px solid #ee2524;
+  color: #143a5f;
+  border-bottom: 2px solid #143a5f;
 }
 .meet .tab-content {
   text-align: left;
@@ -10449,7 +10450,7 @@ div {
 .meet .tab-content .slide_step h1 {
   font-size: 190px;
   margin: 0;
-  color: #ee2524;
+  color: #143a5f;
   line-height: 0.8;
 }
 .meet .tab-content .slide_step p {
@@ -10492,7 +10493,7 @@ div {
 }
 .meet .tab-content #search_bt {
   display: inline-block;
-  background-color: #ee2524;
+  background-color: #143a5f;
   font-family: 'scgbold';
   font-size: 16px;
   color: #fff;
@@ -10522,7 +10523,7 @@ div {
 }
 .meet .tab-content .social a {
   display: inline-block;
-  color: #ee2524;
+  color: #143a5f;
   margin-right: 10px;
   -webkit-transition: all 0.3s ease-in;
   -o-transition: all 0.3s ease-in;
@@ -10559,7 +10560,7 @@ div {
   text-transform: uppercase;
 }
 .meet .s_main > div h1 strong {
-  color: #ee2524;
+  color: #143a5f;
 }
 .meet .s_main > div h2 {
   font-size: 30px;
@@ -10571,7 +10572,7 @@ div {
 }
 .meet .s_main > div h2 strong {
   font-family: 'scgbold';
-  color: #ee2524;
+  color: #143a5f;
 }
 .meet .s_main > div p {
   font-size: 18px;
@@ -10583,7 +10584,7 @@ div {
 }
 .meet .s_main > div .more_info {
   display: inline-block;
-  background-color: #ee2524;
+  background-color: #143a5f;
   font-family: 'scgbold';
   font-size: 16px;
   text-transform: uppercase;
@@ -10595,11 +10596,11 @@ div {
 }
 .meet .s_main > div .more_info:hover {
   background-color: #fff !important;
-  color: #ee2524 !important;
+  color: #143a5f !important;
 }
 .meet .s_main > div .share {
   display: inline-block;
-  background-color: #ee2524;
+  background-color: #143a5f;
   font-family: 'scgbold';
   font-size: 16px;
   text-transform: uppercase;
@@ -10611,7 +10612,7 @@ div {
 }
 .meet .s_main > div .share:hover {
   background-color: #fff !important;
-  color: #ee2524 !important;
+  color: #143a5f !important;
 }
 .pd_scg {
   padding-bottom: 50px!important;
@@ -10665,7 +10666,7 @@ div {
 }
 .business_unit .s_main > div h2 strong {
   font-family: 'scgbold';
-  color: #ee2524;
+  color: #143a5f;
 }
 .business_unit .s_main > div .container {
   display: block;
@@ -10680,7 +10681,7 @@ div {
   text-transform: uppercase;
 }
 .business_unit .s_main > div h1 strong {
-  color: #ee2524;
+  color: #143a5f;
 }
 .business_unit .s_main > div p {
   font-size: 18px;
@@ -10692,7 +10693,7 @@ div {
 }
 .business_unit .s_main > div .more_info {
   display: inline-block;
-  background-color: #ee2524;
+  background-color: #143a5f;
   font-family: 'scgbold';
   font-size: 16px;
   text-transform: uppercase;
@@ -10704,11 +10705,11 @@ div {
 }
 .business_unit .s_main > div .more_info:hover {
   background-color: #fff !important;
-  color: #ee2524 !important;
+  color: #143a5f !important;
 }
 .business_unit .s_main > div .share {
   display: inline-block;
-  background-color: #ee2524;
+  background-color: #143a5f;
   font-family: 'scgbold';
   font-size: 16px;
   text-transform: uppercase;
@@ -10720,7 +10721,7 @@ div {
 }
 .business_unit .s_main > div .share:hover {
   background-color: #fff !important;
-  color: #ee2524 !important;
+  color: #143a5f !important;
 }
 .business_unit .s_main .al_center {
   text-align: center !important;
@@ -10788,7 +10789,7 @@ div {
 }
 .innovation .slide .slide_main h1 span {
   font-family: 'scgbold';
-  color: #ee2524;
+  color: #143a5f;
 }
 .innovation .slide .slide_main p {
   font-size: 18px;
@@ -10798,17 +10799,17 @@ div {
   display: inline-block;
   font-family: 'scgbold';
   font-size: 18px;
-  color: #ee2524;
+  color: #143a5f;
   text-transform: uppercase;
   padding: 10px 20px;
   margin: 20px 0;
-  border: 1px solid #ee2524;
+  border: 1px solid #143a5f;
   -webkit-transition: all 0.3s ease-in;
   -o-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
 }
 .innovation .slide .slide_main .more_info:hover {
-  background-color: #ee2524 !important;
+  background-color: #143a5f !important;
   color: #fff !important;
 }
 .innovation .s_main {
@@ -10839,7 +10840,7 @@ div {
   text-transform: uppercase;
 }
 .innovation .s_main > div h1 strong {
-  color: #ee2524;
+  color: #143a5f;
 }
 .innovation .s_main > div h2 {
   font-size: 30px;
@@ -10851,7 +10852,7 @@ div {
 }
 .innovation .s_main > div h2 strong {
   font-family: 'scgbold';
-  color: #ee2524;
+  color: #143a5f;
 }
 .innovation .s_main > div p {
   font-size: 18px;
@@ -10877,20 +10878,20 @@ div {
   font-size: 18px;
 }
 .innovation .s_main > div .nav a:hover {
-  color: #ee2524 !important;
+  color: #143a5f !important;
   border-left: 0!important;
   border-top: 0!important;
   border-right: 0!important;
   background: transparent;
-  border-bottom: 4px solid #ee2524;
+  border-bottom: 4px solid #143a5f;
   padding: 11px 15px;
 }
 .innovation .s_main > div .nav .active a {
-  color: #ee2524;
+  color: #143a5f;
   border-left: 0!important;
   border-top: 0!important;
   border-right: 0!important;
-  border-bottom: 4px solid #ee2524;
+  border-bottom: 4px solid #143a5f;
 }
 .innovation .s_main > div .tab-pane {
   background-repeat: no-repeat;
@@ -10916,12 +10917,12 @@ div {
 }
 .innovation .s_main > div .tab-pane .bl_in .more_info {
   background-color: #fff;
-  color: #ee2524;
+  color: #143a5f;
 }
 .innovation .s_main > div .all {
   font-size: 18px;
   color: #000;
-  border-bottom: 4px solid #ee2524;
+  border-bottom: 4px solid #143a5f;
   position: absolute;
   top: 73px;
   right: 0;
@@ -10956,7 +10957,7 @@ div {
 }
 .innovation .s_main > div .more_info {
   display: inline-block;
-  background-color: #ee2524;
+  background-color: #143a5f;
   font-family: 'scgbold';
   font-size: 16px;
   text-transform: uppercase;
@@ -10968,11 +10969,11 @@ div {
 }
 .innovation .s_main > div .more_info:hover {
   background-color: #fff !important;
-  color: #ee2524 !important;
+  color: #143a5f !important;
 }
 .innovation .s_main > div .share {
   display: inline-block;
-  background-color: #ee2524;
+  background-color: #143a5f;
   font-family: 'scgbold';
   font-size: 16px;
   text-transform: uppercase;
@@ -10984,7 +10985,7 @@ div {
 }
 .innovation .s_main > div .share:hover {
   background-color: #fff !important;
-  color: #ee2524 !important;
+  color: #143a5f !important;
 }
 #corporate_profile {
   position: relative;
@@ -11022,7 +11023,7 @@ div {
 }
 #corporate_profile .s_main > div h1 strong {
   font-family: 'scgbold';
-  color: #ee2524;
+  color: #143a5f;
 }
 #corporate_profile .s_main > div h2 {
   font-size: 22px;
@@ -11039,7 +11040,7 @@ div {
 #corporate_profile .s_main > div .more_info {
   display: inline-block;
   background-color: #fff;
-  color: #ee2524;
+  color: #143a5f;
   font-family: 'scgbold';
   font-size: 16px;
   text-transform: uppercase;
@@ -11050,7 +11051,7 @@ div {
   transition: all 0.5s ease;
 }
 #corporate_profile .s_main > div .more_info:hover {
-  background-color: #ee2524 !important;
+  background-color: #143a5f !important;
   color: #fff !important;
 }
 #corporate_profile .familiar {
@@ -11305,7 +11306,7 @@ div {
 #corporate_profile .phrase .s_main strong {
   font-family: 'scgbold';
   font-size: 40px;
-  color: #ee2524;
+  color: #143a5f;
 }
 #corporate_profile .phrase .s_main p {
   font-size: 30px !important;
@@ -11321,7 +11322,7 @@ div {
 }
 #corporate_profile .phrase .s_main a:hover {
   background-color: inherit !important;
-  color: #ee2524 !important;
+  color: #143a5f !important;
 }
 #corporate_profile .phrase2 {
   background-color: #f5f5f5;
@@ -11359,7 +11360,7 @@ div {
   display: inline-block;
   font-family: 'scgbold';
   font-size: 22px;
-  color: #ee2524;
+  color: #143a5f;
   line-height: 1;
   margin-bottom: 10px;
 }
@@ -11395,7 +11396,7 @@ div {
   color: #333;
 }
 #corporate_profile .senior_manager p strong {
-  color: #ee2524;
+  color: #143a5f;
 }
 #corporate_profile .senior_manager .slide {
   margin: 50px 0;
@@ -11509,7 +11510,7 @@ div {
   filter: alpha(opacity=100);
 }
 #corporate_profile .organizational_structure {
-  background-color: #ee2524;
+  background-color: #143a5f;
   padding: 50px 0;
   position: relative;
   z-index: 2;
@@ -11616,7 +11617,7 @@ div {
 #environment .environment_header .s_main .desc h1 {
   font-family: 'scgbold';
   font-size: 230px;
-  color: #ee2524;
+  color: #143a5f;
   text-transform: uppercase;
   line-height: 1;
   margin: 0;
@@ -11653,10 +11654,10 @@ div {
 }
 #environment .slide .slide_main h1 span {
   font-family: 'scgbold';
-  color: #ee2524;
+  color: #143a5f;
 }
 #environment .slide .slide_main .more_info {
-  background-color: #ee2524;
+  background-color: #143a5f;
   font-family: 'scgbold';
   font-size: 18px;
   color: #fff;
@@ -11670,7 +11671,7 @@ div {
 }
 #environment .slide .slide_main .more_info:hover {
   background-color: #fff !important;
-  color: #ee2524 !important;
+  color: #143a5f !important;
 }
 #environment .en_boxl {
   background-color: #e0e0e0 !important;
@@ -11679,18 +11680,18 @@ div {
   color: #333 !important;
 }
 #environment .en_boxl .s_main .desc .more_info {
-  background-color: #ee2524 !important;
+  background-color: #143a5f !important;
   color: #fff !important;
 }
 #environment .en_boxl .s_main .desc .more_info:hover {
   background-color: #fff !important;
-  color: #ee2524 !important;
+  color: #143a5f !important;
 }
 #environment .parallax-mirror {
   height: 470px !important;
 }
 #environment .environment_box {
-  background-color: #ee2524;
+  background-color: #143a5f;
   overflow: hidden;
 }
 #environment .environment_box .col-md-6 {
@@ -11732,7 +11733,7 @@ div {
   background-color: #fff;
   font-family: 'scgbold';
   font-size: 16px;
-  color: #ee2524;
+  color: #143a5f;
   text-transform: uppercase;
   padding: 10px 20px;
   margin-top: 30px;
@@ -11742,7 +11743,7 @@ div {
 }
 #environment .environment_box .s_main .desc .more_info:hover {
   background-color: #fff !important;
-  color: #ee2524 !important;
+  color: #143a5f !important;
 }
 #environment .develop {
   background-color: #eeeeee;
@@ -11773,7 +11774,7 @@ div {
   left: 0;
 }
 #environment .develop .sl_bottom .date i {
-  color: #ee2524;
+  color: #143a5f;
   margin-right: 8px;
 }
 #environment .develop .sl_bottom .more_info {
@@ -11791,7 +11792,7 @@ div {
   right: 0;
 }
 #environment .develop .sl_bottom .more_info:hover {
-  color: #ee2524 !important;
+  color: #143a5f !important;
 }
 #environment .develop .sl_bottom .pic {
   background-color: #333;
@@ -11814,7 +11815,7 @@ div {
 }
 #environment .develop .sl_bottom .pic .in_bx:hover {
   background-color: rgba(9, 9, 9, 0.3) !important;
-  color: #ee2524 !important;
+  color: #143a5f !important;
 }
 #environment .develop .sl_bottom .pic img {
   margin: 0 auto;
@@ -11895,7 +11896,7 @@ div {
   transition: all 0.8 ease;
 }
 #environment .develop .bx .s_main .main .social li a:hover {
-  color: #ee2524 !important;
+  color: #143a5f !important;
 }
 #environment .develop .bx .s_main .bm {
   width: 100%;
@@ -11920,7 +11921,7 @@ div {
   margin: 0 10px;
 }
 #environment .develop .bx .s_main .bm a:hover {
-  color: #ee2524 !important;
+  color: #143a5f !important;
 }
 #environment .develop .bx .s_main .bm a + a {
   border-right: 0;
@@ -12009,7 +12010,7 @@ div {
 }
 #investor .debenture .newsroom h1 span {
   font-family: 'scgbold';
-  color: #ee2524;
+  color: #143a5f;
 }
 #investor .debenture .newsroom .row {
   padding: 0 15px;
@@ -12024,7 +12025,7 @@ div {
 #investor .debenture .newsroom .news_previous {
   float: right;
   margin: 20px 0 0;
-  color: #ee2524;
+  color: #143a5f;
   font-family: 'scgbold';
 }
 #investor .debenture .newsroom .news_previous:hover {
@@ -12044,7 +12045,7 @@ div {
   margin: 18px 0;
 }
 #investor .debenture .conr p strong {
-  color: #ee2524;
+  color: #143a5f;
   font-family: 'scgbold';
 }
 #investor .debenture .conr h2 {
@@ -12065,7 +12066,7 @@ div {
 #investor .debenture .conr .more_info {
   float: right;
   background-color: transparent;
-  color: #ee2524;
+  color: #143a5f;
   margin: 5px 0 10px;
 }
 #investor .debenture .conr .more_info:hover {
@@ -12077,7 +12078,7 @@ div {
 }
 #investor .debenture h3 strong {
   font-family: 'scgbold';
-  color: #ee2524;
+  color: #143a5f;
 }
 #investor .debenture .ct_con {
   margin: 15% 0;
@@ -12108,7 +12109,7 @@ div {
 }
 #investor .debenture .more_info {
   display: inline-block;
-  background-color: #ee2524;
+  background-color: #143a5f;
   font-family: 'scgbold';
   font-size: 16px;
   text-transform: uppercase;
@@ -12121,7 +12122,7 @@ div {
 }
 #investor .debenture .more_info:hover {
   background-color: #fff !important;
-  color: #ee2524 !important;
+  color: #143a5f !important;
 }
 #investor .debenture .col_swip {
   background-color: #f5f5f5 !important;
@@ -12191,13 +12192,13 @@ div {
 }
 #investor .analyst h3 strong {
   font-family: 'scgbold';
-  color: #ee2524;
+  color: #143a5f;
 }
 #investor .analyst h3 .fl {
   float: left;
 }
 #investor .analyst h3 .fl strong {
-  color: #ee2524;
+  color: #143a5f;
 }
 #investor .analyst h3 .fr {
   float: right;
@@ -12246,7 +12247,7 @@ div {
   transition: all 0.3s ease-in;
 }
 #investor .analyst .viewall:hover {
-  color: #ee2524 !important;
+  color: #143a5f !important;
 }
 #investor .analyst .rp_main {
   background-color: #E6E5E5;
@@ -12265,7 +12266,7 @@ div {
   color: #000;
 }
 #investor .analyst .rp a:hover {
-  color: #ee2524 !important;
+  color: #143a5f !important;
 }
 #investor .analyst .rp a i {
   display: inline-block;
@@ -12288,7 +12289,7 @@ div {
 #investor .analyst .rp ul li h3 {
   font-family: 'scgbold';
   font-size: 18px;
-  color: #ee2524;
+  color: #143a5f;
   margin: 0 0 10px;
 }
 #investor .analyst .rp ul li a {
@@ -12306,7 +12307,7 @@ div {
 }
 #investor .analyst .rp ul li a strong {
   font-family: 'scgbold';
-  color: #ee2524;
+  color: #143a5f;
 }
 #investor .analyst .rp ul li p {
   text-transform: uppercase;
@@ -12353,7 +12354,7 @@ div {
 }
 #investor .general_information .mt_box a .data_r h3 strong {
   font-family: 'scgbold';
-  color: #ee2524;
+  color: #143a5f;
 }
 #investor .general_information .mt_box a .data_r p {
   font-size: 14px;
@@ -12367,7 +12368,7 @@ div {
   margin: 20px 0;
 }
 #investor .general_information .mt_box a .data_r .more_info:hover {
-  color: #ee2524 !important;
+  color: #143a5f !important;
 }
 #investor .report_3 {
   position: relative;
@@ -12394,7 +12395,7 @@ div {
 }
 #investor .report_3 h1 span {
   font-family: 'scgbold';
-  color: #ee2524;
+  color: #143a5f;
 }
 #investor .report_3 .download {
   font-size: 18px;
@@ -12410,7 +12411,7 @@ div {
 }
 #investor .report_3 .download:hover {
   font-family: 'scgbold';
-  color: #ee2524 !important;
+  color: #143a5f !important;
 }
 #investor .report_3 .report_download {
   padding: 30px 0;
@@ -12440,7 +12441,7 @@ div {
 }
 #investor .report_3 .report_download a:hover {
   font-family: 'scgbold';
-  color: #ee2524 !important;
+  color: #143a5f !important;
 }
 #investor .report_3 .report_download .col-xs-6 {
   min-height: 150px;
@@ -12466,7 +12467,7 @@ div {
 }
 #investor .invest h1 strong {
   font-family: 'scgbold';
-  color: #ee2524;
+  color: #143a5f;
 }
 #investor .invest .conl {
   color: #333;
@@ -12487,7 +12488,7 @@ div {
 }
 #investor .invest .more_info {
   display: inline-block;
-  background-color: #ee2524;
+  background-color: #143a5f;
   font-family: 'scgbold';
   font-size: 16px;
   text-transform: uppercase;
@@ -12499,7 +12500,7 @@ div {
 }
 #investor .invest .more_info:hover {
   background-color: #fff !important;
-  color: #ee2524 !important;
+  color: #143a5f !important;
 }
 #career {
   width: 100%;
@@ -12523,12 +12524,12 @@ div {
 }
 #career .career_header .con_main h1 span {
   display: inline-block;
-  background-color: #ee2524;
+  background-color: #143a5f;
   padding: 10px 20px;
 }
 #career .career_header .con_main h1 strong {
   display: inline-block;
-  background-color: #ee2524;
+  background-color: #143a5f;
   font-family: 'scgbold';
   color: #fff;
   padding: 10px 20px;
@@ -12541,7 +12542,7 @@ div {
 }
 #career .career_header .con_main .more_info {
   display: inline-block;
-  background-color: #ee2524;
+  background-color: #143a5f;
   font-family: 'scgbold';
   font-size: 16px;
   text-transform: uppercase;
@@ -12553,7 +12554,7 @@ div {
 }
 #career .career_header .con_main .more_info:hover {
   background-color: #fff !important;
-  color: #ee2524 !important;
+  color: #143a5f !important;
 }
 #career .meet_our {
   background-color: #fff;
@@ -12575,7 +12576,7 @@ div {
 }
 #career .meet_our h1 strong {
   font-family: 'scgbold';
-  color: #ee2524;
+  color: #143a5f;
 }
 #career .meet_our p {
   font-size: 20px;
@@ -12596,7 +12597,7 @@ div {
 }
 #career .meet_our .cd strong {
   font-family: 'scgbold';
-  color: #ee2524;
+  color: #143a5f;
 }
 #career .meet_our .socail {
   margin: 20px 0 0;
@@ -12614,7 +12615,7 @@ div {
 }
 #career .meet_our .apply_now {
   display: inline-block;
-  background-color: #ee2524;
+  background-color: #143a5f;
   font-family: 'scgbold';
   font-size: 30px;
   text-transform: uppercase;
@@ -12627,7 +12628,7 @@ div {
 }
 #career .meet_our .apply_now:hover {
   background-color: #fff !important;
-  color: #ee2524 !important;
+  color: #143a5f !important;
 }
 #career .exce {
   width: 100%;
@@ -12645,12 +12646,12 @@ div {
 }
 #career .exce h1 span {
   display: inline-block;
-  background-color: #ee2524;
+  background-color: #143a5f;
   padding: 10px 20px;
 }
 #career .exce h1 strong {
   display: inline-block;
-  background-color: #ee2524;
+  background-color: #143a5f;
   font-family: 'scgbold';
   color: #fff;
 }
@@ -12676,7 +12677,7 @@ div {
 }
 #career .exce .apply_now {
   display: inline-block;
-  background-color: #ee2524;
+  background-color: #143a5f;
   font-family: 'scgbold';
   font-size: 30px;
   text-transform: uppercase;
@@ -12689,7 +12690,7 @@ div {
 }
 #career .exce .apply_now:hover {
   background-color: #fff !important;
-  color: #ee2524 !important;
+  color: #143a5f !important;
 }
 #career .road_show {
   width: 100%;
@@ -12707,12 +12708,12 @@ div {
 }
 #career .road_show h1 span {
   display: inline-block;
-  background-color: #ee2524;
+  background-color: #143a5f;
   padding: 10px 20px;
 }
 #career .road_show h1 strong {
   display: inline-block;
-  background-color: #ee2524;
+  background-color: #143a5f;
   font-family: 'scgbold';
   color: #fff;
 }
@@ -12732,7 +12733,7 @@ div {
 }
 #career .road_show .apply_now {
   display: inline-block;
-  background-color: #ee2524;
+  background-color: #143a5f;
   font-family: 'scgbold';
   font-size: 30px;
   text-transform: uppercase;
@@ -12745,7 +12746,7 @@ div {
 }
 #career .road_show .apply_now:hover {
   background-color: #fff !important;
-  color: #ee2524 !important;
+  color: #143a5f !important;
 }
 #career .road_show .con_c {
   margin: 4% 0 0;
@@ -12775,7 +12776,7 @@ div {
 }
 #career .what h1 strong {
   font-family: 'scgbold';
-  color: #ee2524;
+  color: #143a5f;
 }
 #career .what .bx_con {
   margin-bottom: 20px;
@@ -12790,7 +12791,7 @@ div {
   height: 400px;
 }
 #career .what .bx_con .bx1 .con div {
-  background-color: #ee2524;
+  background-color: #143a5f;
   display: table-cell;
   vertical-align: middle;
 }
@@ -12861,7 +12862,7 @@ div {
 }
 #career .what .bx_con .bx2 .main .pic .social:hover {
   background-color: rgba(9, 9, 9, 0.3);
-  color: #ee2524 !important;
+  color: #143a5f !important;
 }
 #career .what .bx_con .bx2 .main p {
   font-size: 16px;
@@ -12882,7 +12883,7 @@ div {
   right: 20px;
 }
 #career .what .bx_con .bx2 .main .more_info:hover {
-  color: #ee2524 !important;
+  color: #143a5f !important;
 }
 #career .what .bx_con .bx2 .main .user {
   display: inline-block;
@@ -12946,7 +12947,7 @@ div {
 }
 #career .what .bx_con .bx3 .main .pic .social:hover {
   background-color: rgba(9, 9, 9, 0.3);
-  color: #ee2524 !important;
+  color: #143a5f !important;
 }
 #career .what .bx_con .bx3 .main p {
   font-size: 16px;
@@ -12967,7 +12968,7 @@ div {
   right: 20px;
 }
 #career .what .bx_con .bx3 .main .more_info:hover {
-  color: #ee2524 !important;
+  color: #143a5f !important;
 }
 #career .what .bx_con .bx3 .main .user {
   display: inline-block;
@@ -13027,7 +13028,7 @@ div {
   right: 20px;
 }
 #career .what .bx_con .bx4 .main .more_info:hover {
-  color: #ee2524 !important;
+  color: #143a5f !important;
 }
 #career .what .bx_con .bx4 .main .user {
   display: inline-block;
@@ -13042,7 +13043,7 @@ div {
   left: 20px;
 }
 #career .what .bx_con .bx4 .main .user:hover {
-  color: #ee2524 !important;
+  color: #143a5f !important;
 }
 #career .search_bm {
   position: relative;
@@ -13059,7 +13060,7 @@ div {
 }
 #career .search_bm h1 strong {
   font-family: 'scgbold';
-  color: #ee2524;
+  color: #143a5f;
 }
 #career .search_bm h2 {
   font-size: 30px;
@@ -13075,7 +13076,7 @@ div {
 #career .search_bm .slide_step h1 {
   font-size: 190px;
   margin: 0;
-  color: #ee2524;
+  color: #143a5f;
   line-height: 0.8;
 }
 #career .search_bm .slide_step p {
@@ -13120,7 +13121,7 @@ div {
 }
 #career .search_bm #search_bt {
   display: inline-block;
-  background-color: #ee2524;
+  background-color: #143a5f;
   font-family: 'scgbold';
   font-size: 16px;
   color: #fff;
@@ -13134,7 +13135,7 @@ div {
 }
 #career .search_bm #search_bt:hover {
   background-color: #fff !important;
-  color: #ee2524 !important;
+  color: #143a5f !important;
 }
 [class*='close-'] {
   color: #fff;
@@ -13188,7 +13189,7 @@ div {
   z-index: 9999;
   top: -5px;
   right: -53px;
-  background: #ee2524;
+  background: #143a5f;
   padding: 11px;
 }
 .block_yt {
@@ -15001,7 +15002,7 @@ img[src="images/p_logo.png"] {
     color: #FFF7F7;
   }
   .navbar-inverse .navbar-collapse {
-    background-color: #ee2524;
+    background-color: #143a5f;
   }
   .navbar-inverse .navbar-collapse li:hover {
     background-color: #BD0F0F;
@@ -15059,8 +15060,8 @@ img[src="images/p_logo.png"] {
     width: 100%;
   }
   .navbar-nav li .dd_group .group ul .head {
-    border-bottom: 2px solid #ee2524;
-    border-top: 2px solid #ee2524;
+    border-bottom: 2px solid #143a5f;
+    border-top: 2px solid #143a5f;
   }
   .navbar-nav li .dd_group2 {
     width: 100% !important;
@@ -16887,7 +16888,7 @@ img[src="images/p_logo.png"] {
     background-color: transparent;
     padding: 0;
     font-family: 'scgbold';
-    color: #ee2524;
+    color: #143a5f;
     padding-left: 5px;
   }
   #career .road_show p {
@@ -16906,7 +16907,7 @@ img[src="images/p_logo.png"] {
     background-color: transparent;
     padding: 0;
     font-family: 'scgbold';
-    color: #ee2524;
+    color: #143a5f;
     padding-left: 5px;
   }
   #career .road_show h1 span {
@@ -16931,7 +16932,7 @@ img[src="images/p_logo.png"] {
     background-color: transparent;
     padding: 0;
     font-family: 'scgbold';
-    color: #ee2524;
+    color: #143a5f;
     padding-left: 5px;
   }
   #investor .invest h1 {
