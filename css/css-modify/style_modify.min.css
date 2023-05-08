@@ -29,9 +29,9 @@ h1 {
 }
 
 #header-modify .navbar-brand img {
-  width: 200px;
-  /* -o-object-fit: cover;
-     object-fit: cover; */
+  width: 130px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .bl-main {
