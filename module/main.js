@@ -48,7 +48,7 @@ $(function () {
         var class_name = "";
         var sub = "";
         if (data.submenu[i]["submenu"]) {
-          class_name = 'class = "has_child"';
+          class_name = 'class = "has_child"';777777777777776
           $.each(data.submenu[i]["submenu"], function (j, item1) {
             sub +=
               '<li><a href="' +
@@ -217,7 +217,7 @@ var wow = new WOW({
   offset: 0, // distance to the element when triggering the animation (default is 0)
   mobile: true, // trigger animations on mobile devices (default is true)
   live: true, // act on asynchronously loaded content (default is true)
-  callback: function (box) {},
+  callback: function (box) { },
   scrollContainer: null,
 });
 wow.init();
