@@ -29,6 +29,7 @@ font & reset css
 --------------------------------------------- 
 */
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
 /* 
 ---------------------------------------------
 reset
@@ -80,7 +81,8 @@ header, nav, section, article, aside, footer, hgroup {
 }
 
 html, body {
-  font-family: 'Raleway', sans-serif;
+
+  font-family: 'IBM Plex Sans Thai', sans-serif;
   font-weight: 400;
   background-color: #fff;
   font-size: 16px;
