@@ -48,7 +48,7 @@ $(function () {
         var class_name = "";
         var sub = "";
         if (data.submenu[i]["submenu"]) {
-          class_name = 'class = "has_child"';777777777777776
+          class_name = 'class = "has_child"';
           $.each(data.submenu[i]["submenu"], function (j, item1) {
             sub +=
               '<li><a href="' +
@@ -225,3 +225,4 @@ wow.init();
 function bx0(i) {
   $(".txb" + i).animate({ opacity: "1", left: "0px" });
 }
+
