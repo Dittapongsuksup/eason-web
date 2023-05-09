@@ -1,0 +1,11 @@
+/* Overlay */
+#ModalOverlay {height:100%; width:100%; position:fixed; left:0; top:0; z-index:3000; background-color:#000; cursor:wait;}
+/* Container */
+#ModalContainer {height:500px; width:720px; position:fixed; left:30%; top:5%; margin-left:-110px; z-index:3100; font-family:'Trebuchet MS', Verdana, Arial;}
+#ModalContainer .content {background-color:#333; color:#ddd; height:260px;}
+#ModalContainer a.modalCloseImg {background:url(/module/jquery/simplemodal/x.png) no-repeat; width:25px; height:29px; z-index:3200; position:absolute; top:4px; left:720px; cursor:pointer;}
+#ModalContainer a.modalCloseX,
+#ModalContainer a.modalCloseX:link,
+#ModalContainer a.modalCloseX:active,
+#ModalContainer a.modalCloseX:visited {text-decoration:none; font-weight:bold; font-size:1.2em; position:absolute; top:-2px; left:720px; color:#999;}
+#ModalContainer a.modalCloseX:hover {color:#ccc;}
