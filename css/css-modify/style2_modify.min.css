@@ -29,7 +29,8 @@ h1 {
 }
 
 #header-modify .navbar-brand img {
-  width: 130px;
+  width: 250px;
+  padding-top: 7px;
   -o-object-fit: cover;
      object-fit: cover;
 }
