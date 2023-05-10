@@ -29,11 +29,10 @@ font & reset css
 --------------------------------------------- 
 */
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
-icomoon.ttf
-scg-bol-webfont.woff2
-scg-lig-webfont.woff2
-scg-reg-webfont.woff2
-
+@font-face {
+  font-family: icomoon;
+  src: url(../fonts/scg-bol-webfont.woff2),url(../fonts/scg-lig-webfont.woff2),url(../fonts/scg-reg-webfont.woff2)
+}
 /* 
 ---------------------------------------------
 reset
@@ -85,9 +84,8 @@ header, nav, section, article, aside, footer, hgroup {
 }
 
 html, body {
-
-  font-family: 'IBM Plex Sans Thai', sans-serif;
-  font-weight: 400;
+  font-family: 'icomoon';
+  font-weight: normal;
   background-color: #fff;
   font-size: 16px;
   -ms-text-size-adjust: 100%;
@@ -122,7 +120,7 @@ global styles
 html,
 body {
   background: #fff;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'icomoon';
 }
 
 ::selection {
@@ -433,7 +431,7 @@ header
   font-weight: 500;
   font-size: 13px;
   color: #7a7a7a;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -1250,9 +1248,13 @@ testimonials
   margin-bottom: -1px;
 }
 
-
-
-
+.img-logo {
+  width: 300px;
+  height:auto;
+  padding-top: 25px;
+  padding-left: 30px;
+  float: left;
+}
 
 /* 
 ---------------------------------------------
