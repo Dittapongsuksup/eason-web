@@ -73,6 +73,7 @@ ul, li {
   padding: 0;
   margin: 0;
   list-style: none;
+  color: #fff;
 }
 
 header, nav, section, article, aside, footer, hgroup {
@@ -85,7 +86,6 @@ header, nav, section, article, aside, footer, hgroup {
 
 html, body {
   font-family: 'icomoon';
-  font-weight: normal;
   background-color: #fff;
   font-size: 16px;
   -ms-text-size-adjust: 100%;
@@ -157,7 +157,6 @@ a.main-stroked-button {
   border: 2px solid #fff;
   text-transform: uppercase;
   color: #fff;
-  font-weight: 600;
   letter-spacing: 1px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -177,7 +176,6 @@ a.main-filled-button {
   background-color: #fff;
   text-transform: uppercase;
   color: #5fb759;
-  font-weight: 600;
   letter-spacing: 1px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -197,7 +195,6 @@ a.main-button-icon {
   background-color: #5fb759;
   text-transform: uppercase;
   color: #fff;
-  font-weight: 600;
   letter-spacing: 1px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -227,7 +224,6 @@ button.main-button {
   background-color: #fff;
   text-transform: uppercase;
   color: #5fb759;
-  font-weight: 600;
   letter-spacing: 1px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -249,7 +245,6 @@ button.main-button-icon {
   background-color: #5fb759;
   text-transform: uppercase;
   color: #fff;
-  font-weight: 600;
   letter-spacing: 1px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -273,7 +268,6 @@ a.text-button-icon {
   text-transform: uppercase;
   color: #1e1e1e;
   font-size: 13px;
-  font-weight: 600;
   letter-spacing: 1px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -300,7 +294,6 @@ a.text-button-icon:hover i {
 
 .section-heading h6 {
   font-size: 15px;
-  font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.25px;
   margin-top: 0px;
@@ -309,7 +302,6 @@ a.text-button-icon:hover i {
 
 .section-heading h2 {
   font-size: 32px;
-  font-weight: 800;
   letter-spacing: 1px;
   margin-top: 20px;
   margin-bottom: 0px;
@@ -323,7 +315,7 @@ header
 */
 
 .background-header {
-  background-color: #fff;
+  background-color: #1B62A1;
   height: 80px!important;
   position: fixed!important;
   top: 0px;
@@ -334,7 +326,7 @@ header
 
 .background-header .logo,
 .background-header .main-nav .nav li a {
-  color: #1e1e1e!important;
+  color: #fff!important;
 }
 
 .background-header .main-nav .nav li:hover a {
@@ -367,7 +359,6 @@ header
   line-height: 80px;
   color: #fff;
   font-size: 28px;
-  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2px;
   float: left;
@@ -428,10 +419,9 @@ header
 
 .header-area .main-nav .nav li a {
   display: block;
-  font-weight: 500;
   font-size: 13px;
   color: #7a7a7a;
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -474,7 +464,7 @@ header
 }
 
 .background-header .main-nav .nav li.submenu:after {
-  color: #7a7a7a;
+  color: #fff;
 }
 
 .header-area .main-nav .nav li.submenu ul {
@@ -529,6 +519,7 @@ header
   z-index: 1;
   transform: translateY(0%);
   transition-delay: 0s, 0s, 0.3s;
+  color: #fff;
 }
 
 .header-area .main-nav .menu-trigger {
@@ -744,7 +735,6 @@ header
   }
   .header-area .main-nav .nav li.submenu ul li a {
     font-size: 12px;
-    font-weight: 400;
   }
   .header-area .main-nav .nav li.submenu ul li a:hover:before {
     width: 0px;
@@ -753,7 +743,7 @@ header
     height: auto !important;
   }
   .header-area .main-nav .nav li.submenu:after {
-    color: #3B566E;
+    color: #fff;
     right: 25px;
     font-size: 14px;
     top: 15px;
@@ -901,7 +891,6 @@ ul.slick-dots {
   margin-bottom: 25px;
   font-size: 16px;
   text-transform: uppercase;
-  font-weight: 600;
   letter-spacing: 1px;
   color:#FFF;
   animation:fadeOutRight 1s both;
@@ -910,7 +899,6 @@ ul.slick-dots {
 .Modern-Slider .item h5 {
   margin-bottom: 50px;
   font-size: 36px;
-  font-weight: 200;
   letter-spacing: 2.5px;
   color:#FFF;
   overflow:hidden;
@@ -992,7 +980,6 @@ about
 
 #about .service-item h4 {
   font-size: 15px;
-  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.25px;
   line-height: 46px;
@@ -1039,7 +1026,6 @@ features
 
 .features-item .features-content h4 {
   font-size: 15px;
-  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.25px;
   margin-bottom: 15px;
@@ -1137,7 +1123,6 @@ testimonials
 
 #testimonials .item h4 {
   font-size: 17px;
-  font-weight: 700;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 1px;
@@ -1148,7 +1133,6 @@ testimonials
 
 #testimonials .item span {
   color: #fff;
-  font-weight: 500;
   font-size: 13px;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -1276,7 +1260,6 @@ contact
 
 #contact-us .left-text-content ul li {
   font-size: 14px;
-  font-weight: 600;
   letter-spacing: 0.5px;
 }
 
@@ -1525,7 +1508,6 @@ search
   color: white;
   background: rgba(0, 0, 0, 0);
   font-size: 60px;
-  font-weight: 300;
   text-align: center;
   border: 0px;
   margin: 0px auto;
@@ -1540,7 +1522,6 @@ search
   text-transform: uppercase;
   border-radius: 20px;
   font-size: 13px;
-  font-weight: 600;
   padding: 11px 25px;
   letter-spacing: 1px;
   transform: translateX(-15%);
@@ -1598,7 +1579,6 @@ portfolio
   cursor: pointer;
   position: relative;
   font-size: 13px;
-  font-weight: 700;
   color: #9a9a9a;
   text-transform: uppercase;
   -webkit-transition: all 0.3s ease-in-out;

@@ -24,7 +24,6 @@ html.lb-disable-scrolling {
   z-index: 10000;
   text-align: center;
   line-height: 0;
-  font-weight: normal;
 }
 
 .lightbox .lb-image {
@@ -163,7 +162,6 @@ html.lb-disable-scrolling {
 
 .lb-data .lb-caption {
   font-size: 13px;
-  font-weight: bold;
   line-height: 1em;
 }
 
