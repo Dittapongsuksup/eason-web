@@ -131,13 +131,14 @@
 
 /* dropdown menu */
 #cssmenu ul ul li a {
-  border-bottom: 1px solid rgba(150, 150, 150, 0.15);
+  /* border-bottom: 1px solid rgba(221, 50, 12, 1.5); */
   padding: 11px 15px;
   width: 260px;
   font-size: 12px;
-  text-decoration: none;
+  /* text-decoration:none ; */
   color: #262626;
   font-weight: 500;
+  z-index:155 ;
 }
 
 #cssmenu ul ul li:last-child>a,
@@ -317,7 +318,7 @@
     right: 0;
     top: 0;
     cursor: pointer;
-    z-index: 12399994;
+    z-index: 123;
   }
 
   .down:after {
@@ -443,3 +444,4 @@
     border-top: none;
   }
 }
+
