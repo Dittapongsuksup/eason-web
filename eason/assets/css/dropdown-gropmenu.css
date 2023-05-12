@@ -4,13 +4,17 @@
   height: 250px;
   margin-top: 0px;
   left: 30px;
+  display: flex;
+  float: left;
 }
+
 .mega-menu li {
-  display: block;
   font-size: 13px;
   text-align: left;
-  float: left; 
+  display: flex;
+  justify-content: space-between;
 }
+
 .mega-menu li.mega-menu-column {
   margin-right: 20px;
   width: 150px;
@@ -19,7 +23,5 @@
 .mega-menu .nav-header {
   padding: 0 !important;
   margin-bottom: 10px;
-  display: inline-block;
   width: 100%;
-  border-bottom: 1px solid #ddd;
 }

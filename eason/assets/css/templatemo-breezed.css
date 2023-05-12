@@ -360,7 +360,7 @@ header
   -moz-transition: all .5s ease 0s;
   -o-transition: all .5s ease 0s;
   transition: all .5s ease 0s;
-  background-color: #1B62A1;
+  /* background-color: #1B62A1; */
   height: 80px;
 }
 
