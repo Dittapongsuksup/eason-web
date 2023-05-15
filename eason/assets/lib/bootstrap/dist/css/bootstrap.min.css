@@ -1011,7 +1011,7 @@ pre code {
     width: 100%;
     min-height: 1px;
     padding-right: 15px;
-    padding-left: 15px
+    padding-left: 15px;
 }
 
 @media (min-width:576px) {
@@ -1301,7 +1301,7 @@ pre code {
         padding-left: 15px
     }
 }
-
+/* content */
 .col {
     -webkit-flex-basis: 0;
     -ms-flex-preferred-size: 0;
@@ -1310,7 +1310,8 @@ pre code {
     -webkit-flex-grow: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
-    max-width: 100%
+    max-width: 100%;
+    padding-left: 200px;
 }
 
 .col-auto {
@@ -1318,7 +1319,7 @@ pre code {
     -webkit-flex: 0 0 auto;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
-    width: auto
+    width: auto;
 }
 
 .col-1 {
@@ -1522,7 +1523,7 @@ pre code {
 }
 
 .offset-1 {
-    margin-left: 8.333333%
+    margin-left: 0;
 }
 
 .offset-2 {
@@ -2185,6 +2186,7 @@ pre code {
         -ms-flex: 0 0 66.666667%;
         flex: 0 0 66.666667%;
         max-width: 66.666667%
+        /*  */
     }
 
     .col-lg-9 {
@@ -4605,7 +4607,7 @@ tbody.collapse.show {
 
 .navbar-nav .nav-link {
     padding-right: 0;
-    padding-left: 0
+    padding-left: 0;
 }
 
 .navbar-text {
@@ -8523,11 +8525,6 @@ a.bg-inverse:hover {
 .mx-4 {
     margin-right: 1.5rem !important;
     margin-left: 1.5rem !important
-}
-
-.my-4 {
-    margin-top: 1.5rem !important;
-    margin-bottom: 1.5rem !important
 }
 
 .m-5 {
