@@ -314,6 +314,7 @@ a:focus {
         margin-left: -1.2rem
     }
 }
+
 /* dropdown menu */
 .znav-container .dropdown,
 .znav-container .megamenu {
@@ -383,7 +384,7 @@ a:focus {
 .znav-container .has-dropdown .dropdown {
     left: 0;
     min-width: 160px;
-    padding: .4rem 0 ;
+    padding: .4rem 0;
 }
 
 .znav-container .has-megamenu>a {
@@ -2403,7 +2404,7 @@ ul.no-style {
 .btn-outline-dark.active,
 .open>.btn-outline-dark.dropdown-toggle {
     color: #fff;
-    background-color: #0c151a; 
+    background-color: #0c151a;
     border-color: #0c151a
 }
 
@@ -8370,4 +8371,55 @@ h6 {
 .flex-direction-nav a,
 .flex-direction-nav a:before {
     text-shadow: none
+}
+
+.column1 {
+    float: left;
+    width: 20%;
+    padding: 8px;
+    height: 60px;
+    /* Should be removed. Only for demonstration 
+    border: dashed 2px #333;
+    border-left: none;*/
+    border-right: 2px solid cornflowerblue;
+
+
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 80%;
+    padding-top: 17px;
+    padding-left: 10px;
+    height: 60px;
+    /* Should be removed. Only for demonstration */
+    text-align: left;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.column .cont {
+    text-decoration: none;
+    color: #333;
+    float: left;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.fi-rr-download:before {
+    display: block;
+    align-items: center;
+    text-align: right;
+    cursor: pointer;
+    text-decoration: none;
+    color:#119B0A ;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: inline-table;
+    clear: both;
+    text-align: left;
 }
