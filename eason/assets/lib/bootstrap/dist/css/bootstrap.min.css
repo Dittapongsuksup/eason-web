@@ -1311,9 +1311,16 @@ pre code {
     -ms-flex-positive: 1;
     flex-grow: 1;
     max-width: 100%;
-    padding-left: 200px;
+    /* padding-left: 200px; */
 }
-
+.col #section-1 {
+    padding-left: 50px;
+}
+@media (min-width: 990px) and (max-width: 1998px) {
+    .col #section-1 {
+        padding-left: 50px;
+    }
+}
 .col-auto {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 auto;

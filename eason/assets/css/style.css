@@ -172,11 +172,16 @@ a:focus {
     border-color: #24292e
 }
 
+
 @media (max-width: 61.99em) {
     .card-columns {
         -webkit-column-count: 1;
         -moz-column-count: 1;
         column-count: 1
+    }
+
+    .col #section-1 {
+        padding-left: 50px;
     }
 }
 
@@ -864,7 +869,6 @@ a:focus {
     color: #fff;
     background-color: #1C7BCE;
 }
-
 
 .znav-white a.navbar-brand {
     color: #0c151a
@@ -6253,7 +6257,7 @@ hr.short {
 
 .py-6 {
     padding-top: 4rem !important;
-    padding-bottom: 4rem !important
+    padding-bottom: 0rem !important
 }
 
 .p-7 {
