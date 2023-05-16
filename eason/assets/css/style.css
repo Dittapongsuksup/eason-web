@@ -8407,6 +8407,12 @@ h6 {
     font-weight: 800;
 }
 
+.column-name a {
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+}
+
 .fi-rr-download:before {
     display: block;
     align-items: center;
@@ -8419,7 +8425,13 @@ h6 {
 /* Clear floats after the columns */
 .row:after {
     content: "";
-    display: inline-table;
+    display: block;
     clear: both;
-    text-align: left;
+
+}
+
+.column-img {
+    padding-left: 15px;
+    text-align: center;
+    align-items: center;
 }
