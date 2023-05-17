@@ -1566,7 +1566,9 @@ small,
     }
 
     .fs-sm-4 {
-        font-size: 3.15733rem !important
+        font-size: 16px !important;
+        /*  1.15733*/
+        color: #ADACAC;
     }
 
     .fs-sm-5 {
@@ -3633,9 +3635,9 @@ hr.short {
     color: #f2f2f2 !important
 }
 
-.background-10 {
+/* .background-10 {
     background-color: #f2f2f2 !important
-}
+} */
 
 .border-color-10 {
     border-color: #f2f2f2 !important
@@ -8407,10 +8409,8 @@ h6 {
     font-weight: 800;
 }
 
-.column-name a {
+.column-name{
     padding: 15px;
-    text-align: center;
-    align-items: center;
 }
 
 .fi-rr-download:before {
@@ -8420,6 +8420,11 @@ h6 {
     cursor: pointer;
     text-decoration: none;
     color:#119B0A ;
+}
+
+.fi-sr-angle-small-right:before  {
+    align-items: center;
+    scroll-padding-top: 15px;
 }
 
 /* Clear floats after the columns */
