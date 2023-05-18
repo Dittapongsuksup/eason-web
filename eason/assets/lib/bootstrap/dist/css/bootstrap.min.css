@@ -4539,7 +4539,7 @@ tbody.collapse.show {
 
 .nav-pills .nav-item.show .nav-link,
 .nav-pills .nav-link.active {
-    color: #0275d8;
+    color: #1b62a1;
     cursor: default;
     /* background-color: #0275d8 */
     border-left: 5px solid #014c8c;

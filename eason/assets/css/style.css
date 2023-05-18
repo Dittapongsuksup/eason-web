@@ -19,13 +19,13 @@ img {
 }
 
 a {
-    color: #007AFF;
+    color: #000;
     transition: all 0.2s ease-in-out
 }
 
 a:hover,
 a:focus {
-    color: #0062cc;
+    color: #1B62A1;
     -webkit-text-decoration-color: currentColor;
     text-decoration-color: currentColor
 }
@@ -8439,4 +8439,9 @@ h6 {
     padding-left: 15px;
     text-align: center;
     align-items: center;
+}
+.location {
+    width: 100%;
+    background-color: red;
+    height: 100px;
 }
