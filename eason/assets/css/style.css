@@ -8650,11 +8650,15 @@ ul {
     /* กำหนดความสูงส่วนของเนื้อหาที่นำมาซ้อนทับ */
     width: 100%;
     /* กำหนดความกว้างของเนื้อหาที่นำมาซ้อนทับ แบบขยายเต็ม */
-    top: 270px;
+    top: 160px;
     /* css กำหนดชิดด้านบน  */
     z-index: 999;
-    padding-left: 90px;
     color: #1B62A1;
     font-size: 18px;
     font-weight: 800;
 }
+
+
+.size_chart.show {
+    display: block !important;
+  }

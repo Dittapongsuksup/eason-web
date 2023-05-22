@@ -59,3 +59,20 @@ function myFunction18() {
 function myFunction19() {
   window.open("https://weblink.set.or.th/dat/news/202305/0861NWS120520231717320366T.pdf");
 }
+
+
+$(document).ready(function () {
+  //hides dropdown content
+  $(".size_chart").hide();
+
+  //unhides first option content
+  $("#option1").show();
+
+  //listen to dropdown for change
+  $("#size_select").change(function () {
+    //rehide content on change
+    $(".size_chart").hide();
+    //unhides current item
+    $("#" + $(this).val()).show();
+  });
+});
