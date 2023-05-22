@@ -8654,7 +8654,24 @@ ul {
     /* css กำหนดชิดด้านบน  */
     z-index: 999;
     padding-left: 90px;
-    color: red;
+    color: #1B62A1;
+    font-size: 18px;
+    font-weight: 800;
+}
+* test */
+.inner_position_top1 {
+    position: absolute;
+    display: block;
+    background-color: none;
+    height: 300px;
+    /* กำหนดความสูงส่วนของเนื้อหาที่นำมาซ้อนทับ */
+    width: 100%;
+    /* กำหนดความกว้างของเนื้อหาที่นำมาซ้อนทับ แบบขยายเต็ม */
+    top: 350px;
+    /* css กำหนดชิดด้านบน  */
+    z-index: 999;
+    padding-left: 500px;
+    color: #1B62A1;
     font-size: 18px;
     font-weight: 800;
 }
