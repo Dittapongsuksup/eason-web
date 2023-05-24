@@ -8652,19 +8652,69 @@ ul {
     position: absolute;
     display: block;
     background-color: none;
+    height: 100px;
+    /* กำหนดความสูงส่วนของเนื้อหาที่นำมาซ้อนทับ */
+    /* width: 50px;
+    กำหนดความกว้างของเนื้อหาที่นำมาซ้อนทับ แบบขยายเต็ม */
+    top: 310px;
+    /* css กำหนดชิดด้านบน  */
+    z-index: 99999;
+    color: #1B62A1;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.inner_position_top1 {
+    position: absolute;
+    display: block;
+    background-color: none;
     height: 300px;
     /* กำหนดความสูงส่วนของเนื้อหาที่นำมาซ้อนทับ */
-    width: 100%;
+    /* width: 300px; */
     /* กำหนดความกว้างของเนื้อหาที่นำมาซ้อนทับ แบบขยายเต็ม */
+<<<<<<< HEAD
+    top: 330px;
+=======
     top: 320px;
+>>>>>>> d8254b9c86003a6950ac3825d1d5f87bbce0a17b
     /* css กำหนดชิดด้านบน  */
+    z-index: 9999;
+    color: #1B62A1;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.inner_position_top2 {
+
+    display: block;
+    background-color: none;
+    height: 300px;
+    /* กำหนดความสูงส่วนของเนื้อหาที่นำมาซ้อนทับ */
+    /*width: 100%;*/
+    /* กำหนดความกว้างของเนื้อหาที่นำมาซ้อนทับ แบบขยายเต็ม */
+     top: 330px; 
+     /*css กำหนดชิดด้านบน  */
     z-index: 999;
     color: #1B62A1;
     font-size: 18px;
     font-weight: 800;
 }
 
-
+.inner_position_top3 {
+    position: absolute;
+    display: block;
+    background-color: none;
+    height: 300px;
+    /* กำหนดความสูงส่วนของเนื้อหาที่นำมาซ้อนทับ */
+    /* width: 100%; */
+    /* กำหนดความกว้างของเนื้อหาที่นำมาซ้อนทับ แบบขยายเต็ม */
+    top: 330px;
+    /* css กำหนดชิดด้านบน  */
+    z-index: 99;
+    color: #1B62A1;
+    font-size: 18px;
+    font-weight: 800;
+}
 .size_chart.show {
     display: block !important;
 }
