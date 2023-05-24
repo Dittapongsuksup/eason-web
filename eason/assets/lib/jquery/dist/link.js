@@ -76,3 +76,6 @@ $(document).ready(function () {
     $("#" + $(this).val()).show();
   });
 });
+function map() {
+  window.open("https://goo.gl/maps/kyuQWGksgoG28MAQ7");
+}
