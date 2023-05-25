@@ -79,6 +79,10 @@ $(document).ready(function () {
 function map() {
   window.open("https://goo.gl/maps/kyuQWGksgoG28MAQ7");
 }
+function mappt() {
+  window.open("https://goo.gl/maps/DG3zJHgnALH9LBWTA");
+}
+
 const images = document.querySelectorAll(".slide"),
   next = document.querySelector(".next"),
   prev = document.querySelector(".prev");
@@ -126,3 +130,4 @@ prev.addEventListener("click", function () {
 setInterval(() => {
   next.click();
 }, 5000);
+
