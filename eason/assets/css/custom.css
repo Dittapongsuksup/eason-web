@@ -35,7 +35,7 @@ a:focus {
 
 .internal-page h3,
 .internal-page h4 {
-    color: #ee2524;
+    color: #365899;
 }
 
 
@@ -245,7 +245,7 @@ ul.dropdown_menu>li.active>a {
 table.ir_table {
     width: 100%;
     margin-bottom: 20px;
-    border-bottom: 1px solid #ee2524;
+    border-bottom: 1px solid #1B62A1;
 }
 
 table.ir_table tr td {
@@ -257,7 +257,7 @@ table.ir_table tr:hover td {
 }
 
 table.ir_table tr.bold.center {
-    background: #EE2524;
+    background: #1B62A1;
     color: #fff;
 }
 
@@ -372,7 +372,7 @@ table.historical-price tr.rowHighlightTop:hover td {
 [class*="hexagon-six"] strong {
     font-family: 'scgbold';
     font-size: 30px;
-    color: #ee2524;
+    color: #1B62A1;
 }
 
 [class*="hexagon-six"] p {
@@ -500,7 +500,7 @@ table[class*="table-hover"] tr:hover td {
 }
 
 .download-item>p>a:hover {
-    color: #ee2524 !important;
+    color: #1B62A1 !important;
     font-weight: bold;
 }
 
@@ -524,7 +524,7 @@ table[class*="table-hover"] tr:hover td {
 }
 
 .download-item.download-item--ar>h3 {
-    color: #ee2524;
+    color: #1B62A1;
     font-family: "scgbold";
     text-align: center;
     margin: 20px 0;
@@ -563,7 +563,7 @@ table[class*="table-hover"] tr:hover td {
 }
 
 .download-item.download-item--ar>p>a:hover {
-    color: #ee2524 !important;
+    color: #1B62A1 !important;
     font-weight: bold;
 }
 
@@ -618,7 +618,7 @@ table[class*="table-hover"] tr:hover td {
 }
 
 [id^=paging_container] .active_page {
-    background: #EE2524 !important;
+    background: #1c3f64 !important;
     color: fff !important;
 }
 
@@ -1009,8 +1009,8 @@ table.ir_debt_form .red {
     }
 
     .topic>a {
-        border-top: 2px solid #ee2524;
-        border-bottom: 2px solid #ee2524;
+        border-top: 2px solid #1B62A1;
+        border-bottom: 2px solid #1B62A1;
     }
 
     .topic>a:hover {
