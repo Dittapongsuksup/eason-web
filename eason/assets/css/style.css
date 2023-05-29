@@ -514,7 +514,7 @@ a:focus {
     .znav-container ul.navbar-nav>li.has-megamenu .megamenu {
         display: block;
         border-radius: 3px;
-        left: 0;
+        left: 100px;
         position: absolute;
     }
 
