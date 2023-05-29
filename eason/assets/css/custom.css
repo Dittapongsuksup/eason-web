@@ -35,7 +35,7 @@ a:focus {
 
 .internal-page h3,
 .internal-page h4 {
-    color: #365899;
+    color: #122c5eda;
 }
 
 
@@ -245,7 +245,7 @@ ul.dropdown_menu>li.active>a {
 table.ir_table {
     width: 100%;
     margin-bottom: 20px;
-    border-bottom: 1px solid #1B62A1;
+    border-bottom: 1px solid #102b5e;
 }
 
 table.ir_table tr td {
@@ -257,7 +257,7 @@ table.ir_table tr:hover td {
 }
 
 table.ir_table tr.bold.center {
-    background: #1B62A1;
+    background: #102b5e;
     color: #fff;
 }
 
@@ -268,7 +268,7 @@ table.ir_table tr.rowHighlightTop td {
 
 table.ir_table tr.ir_tableTopRowHead td,
 table tr.ir_tableTopRow td {
-    background: #1B62A1 !important;
+    background: #102b5e !important;
     color: #fff;
     text-align: center;
     font-weight: bold;
