@@ -83,51 +83,73 @@ function mappt() {
   window.open("https://goo.gl/maps/DG3zJHgnALH9LBWTA");
 }
 
-const images = document.querySelectorAll(".slide"),
-  next = document.querySelector(".next"),
-  prev = document.querySelector(".prev");
 
-let current = 0;
+const slides = document.querySelectorAll(".slide");
+const next = document.querySelector("#next");
+const prev = document.querySelector("#prev");
+const toggle = document.querySelector("#myonoffswitch");
+let auto = true; // Auto scroll
+const intervalTime = 7000;
+let slideInterval;
 
-function changeImage() {
-  images.forEach((img) => {
-    img.classList.remove("show");
-    img.style.display = "none";
-  });
+const nextSlide = () => {
+	// Get current class
+	const current = document.querySelector(".current");
+	// Remove current class
+	current.classList.remove("current");
+	// Check for next slide
+	if (current.nextElementSibling) {
+		// Add current to next sibiling
+		current.nextElementSibling.classList.add("current");
+	} else {
+		// Add current to start
+		slides[0].classList.add("current");
+	}
+	setTimeout(() => current.classList.remove("current"));
+};
 
-  images[current].classList.add("show");
-  images[current].style.display = "block";
+const prevSlide = () => {
+	// Get current class
+	const current = document.querySelector(".current");
+	// Remove current class
+	current.classList.remove("current");
+	// Check for next slide
+	if (current.previousElementSibling) {
+		// Add current to prev sibiling
+		current.previousElementSibling.classList.add("current");
+	} else {
+		// Add current to last
+		slides[slides.length - 1].classList.add("current");
+	}
+	setTimeout(() => current.classList.remove("current"));
+};
+
+// Button events
+next.addEventListener("click", (e) => {
+	nextSlide();
+	if (auto) {
+		clearInterval(slideInterval);
+		slideInterval = setInterval(nextSlide, intervalTime);
+	}
+});
+prev.addEventListener("click", (e) => {
+	prevSlide();
+	clearInterval(slideInterval);
+	slideInterval = setInterval(nextSlide, intervalTime);
+});
+
+// Auto slide toggle
+toggle.addEventListener("click", (e) => {
+	if (toggle.checked) {
+		auto = true;
+		slideInterval = setInterval(nextSlide, intervalTime);
+	} else {
+		auto = false;
+		clearInterval(slideInterval);
+	}
+});
+
+// Auto slide
+if (auto) {
+	slideInterval = setInterval(nextSlide, intervalTime);
 }
-
-// Calling first time
-changeImage();
-
-next.addEventListener("click", function () {
-  current++;
-
-  if (current > images.length - 1) {
-    current = 0;
-  } else if (current < 0) {
-    current = images.length - 1;
-  }
-
-  changeImage();
-});
-prev.addEventListener("click", function () {
-  current--;
-
-  if (current > images.length - 1) {
-    current = 0;
-  } else if (current < 0) {
-    current = images.length - 1;
-  }
-
-  changeImage();
-});
-
-// Auto change in 5 seconds
-
-setInterval(() => {
-  next.click();
-}, 5000);
-
