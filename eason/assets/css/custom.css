@@ -64,6 +64,8 @@ a.download-link:hover { color: #333; background:url(/images/v02/icons/icon-downl
 .container.internal-page {
     background: #fff;
     padding-bottom: 30px;
+    border-radius: 5px;
+    margin-bottom: 50px;
 }
 
 h2.title-page {
