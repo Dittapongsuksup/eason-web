@@ -8780,8 +8780,8 @@ a.prev a.next {
 
 .slide .content h1 {
 	margin-bottom: 10px;
-	color: #e94654;
-	font-family: "Anton";
+	color: #102b5e;
+	font-family: "icomoon";
 	font-size: 50px;
 	font-weight: 800;
 }
@@ -8789,7 +8789,7 @@ a.prev a.next {
 .slide.current .content {
 	opacity: 1;
 	transform: translateX(600px);
-	transition: all 1s ease-in-out 1s;
+	transition: all 1s ease-out-in 1s;
 }
 
 .buttons button#next {
@@ -8805,17 +8805,17 @@ a.prev a.next {
 }
 
 .buttons button {
-	border: 2px solid #e94654;
+	border: 2px solid#102b5e;
 	background-color: transparent;
-	color: #e94654;
+	color: #102b5e;
 	cursor: pointer;
-	padding: 13px 15px;
+	padding: 10px 15px;
 	border-radius: 50%;
 	outline: none;
 }
 
 .buttons button:hover {
-	background-color: #e94654;
+	background-color: #102b5e;
 	color: #fff;
 }
 
@@ -8833,23 +8833,23 @@ a.prev a.next {
 
 /* Background Images */
 .slide:first-child {
-	background: url("https://drive.google.com/uc?id=17tLcBTupNVFBDhqkzdfYq5XqS5MnShPb")
+	background: url("../images/bg/Eason.jpg")
 		no-repeat center center/cover;
 }
 .slide:nth-child(2) {
-	background: url("https://drive.google.com/uc?id=1Oxn2mhUOSG-n2kU_e-PAk-_I6erD4aVt")
+	background: url("../images/bg/Eason1.JPG")
 		no-repeat center center/cover;
 }
 .slide:nth-child(3) {
-	background: url("https://drive.google.com/uc?id=1A8ci7uQx4ualinoXVY4BDMwO_YCnzZWK")
+	background: url("../images/bg/Eason2.jpg")
 		no-repeat center center/cover;
 }
 .slide:nth-child(4) {
-	background: url("https://drive.google.com/uc?id=1apx4Jkym-X8XvLvopVWEVtjKvvc9yhWq")
+	background: url("../images/bg/Eason3.jpg")
 		no-repeat center center/cover;
 }
 .slide:nth-child(5) {
-	background: url("https://drive.google.com/uc?id=19eTswcHPUVwmVLuqPsUXeKcqsn1hzsQv")
+	background: url("https://www.science.org/do/10.1126/science.aax7477/abs/solar_16x9_2.jpg")
 		no-repeat center center/cover;
 }
 
@@ -8857,13 +8857,15 @@ a.prev a.next {
 	position: absolute;
 	top: 10%;
 	right: 15px;
-	width: 75px;
+	width: 74px;
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
+    margin-top: 5px;
 }
 .onoffswitch-checkbox {
 	display:none;
+    
 }
 .onoffswitch-label {
 	display: block;
@@ -8874,7 +8876,8 @@ a.prev a.next {
 	line-height: 36px;
 	border: 2px solid #e3e3e3;
 	border-radius: 36px;
-	background-color: #ffffff;
+	background-color:#102b5e   ;
+    /*#ffffff*/
 	transition: background-color 0.3s ease-in;
 }
 .onoffswitch-label:before {
@@ -8882,7 +8885,8 @@ a.prev a.next {
 	display: block;
 	width: 36px;
 	margin: 0px;
-	background: #ffffff;
+	background:#fff ;
+    /* #102b5e */
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -8893,11 +8897,13 @@ a.prev a.next {
     height: 35px;
 }
 .onoffswitch-checkbox:checked + .onoffswitch-label {
-	background-color: #e94654;
+	background-color: #102b5e;
+    /* #e94654 */
 }
 .onoffswitch-checkbox:checked + .onoffswitch-label,
 .onoffswitch-checkbox:checked + .onoffswitch-label:before {
-	border-color: #e94654;
+	border-color: #fafafa;
+    /* #e94654 */
 }
 .onoffswitch-checkbox:checked + .onoffswitch-label:before {
 	right: 0px;

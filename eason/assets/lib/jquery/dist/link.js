@@ -83,7 +83,6 @@ function mappt() {
   window.open("https://goo.gl/maps/DG3zJHgnALH9LBWTA");
 }
 
-
 const slides = document.querySelectorAll(".slide");
 const next = document.querySelector("#next");
 const prev = document.querySelector("#prev");
