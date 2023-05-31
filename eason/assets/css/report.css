@@ -9,9 +9,9 @@ body {
     position: relative;
     min-height: 100%;
     /* background-image: url("https://cdn.wallpapersafari.com/66/55/9kudOx.jpg"); */
-}s
+}
 
-* {
+s * {
     outline: none !important
 }
 
@@ -239,10 +239,12 @@ a:focus {
     top: 0;
     left: 0;
     right: 0;
-    position: relative;
+    position: fixed;
     z-index: 1030;
-    background-color: #102b5e;
-    
+    /*  #102b5e; */
+    opacity: 0.9;
+    background: none;
+    background-color: #002147;
 }
 
 @media (max-width: 61.99em) {
@@ -546,15 +548,16 @@ a:focus {
 }
 
 .znav-container a:not(.btn) {
-    color: rgba(250, 250, 250, 0.6);
-    /*  */
+    color: #fff;
+    /* */
 }
 
 .znav-container a:not(.btn):active,
 .znav-container a:not(.btn):hover,
 .znav-container a:not(.btn):focus,
 .znav-container a:not(.btn):active:focus {
-    color: #fafafa
+    color: #fafafa;
+    background-color: #0062cc;
 }
 
 .znav-container a.navbar-brand {
@@ -872,7 +875,7 @@ a:focus {
 /* hover dropdown */
 .znav-white a:not(.head):hover {
     color: #fff;
-    background-color: #365899; 
+    background-color: #365899;
     /* #1C7BCE */
 }
 
@@ -3636,9 +3639,9 @@ hr.short {
     border-color: #e1e1e1 !important
 }
 
- .color-10 {
+.color-10 {
     color: #8DBCE6 !important
-} 
+}
 
 /* .background-10 {
     background-color: #f2f2f2 !important
@@ -6086,7 +6089,6 @@ hr.short {
 .py-0 {
     padding-top: 0 !important;
     padding-bottom: 0 !important
-
 }
 
 .p-1 {
@@ -8334,13 +8336,6 @@ h6 {
     }
 }
 
-.sticky-top {
-    z-index: 99999;
-    position: relative;
-    position: -webkit-sticky;
-    position: sticky
-}
-
 @media (min-width: 75em) {
     .ie .h-full {
         height: 100vh
@@ -8746,183 +8741,191 @@ a.prev a.next {
 
 /* auto slide index main */
 .slider {
-	position: relative;
-	overflow: hidden;
-	height: 100vh;
-	width: 100vw;
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
 }
 
 .slide {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	opacity: 0;
-	transform: scale(1.2);
-	transition: all 2s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transform: scale(1.2);
+    transition: all 2s ease-in-out;
 }
 
 .slide.current {
-	opacity: 1;
-	transform: scale(1);
+    opacity: 1;
+    transform: scale(1);
 }
 
 .slide .content {
-	position: absolute;
-	bottom: 70px;
-	left: -600px;
-	opacity: 0;
-	width: 600px;
-	background-color: rgba(255, 255, 255, 0.8);
-	color: #333;
-	padding: 35px;
+    position: absolute;
+    bottom: 70px;
+    left: -600px;
+    opacity: 0;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+    padding: 35px;
 }
 
 .slide .content h1 {
-	margin-bottom: 10px;
-	color: #102b5e;
-	font-family: "icomoon";
-	font-size: 50px;
-	font-weight: 800;
+    margin-bottom: 10px;
+    color: #102b5e;
+    font-family: "icomoon";
+    font-size: 50px;
+    font-weight: 800;
 }
 
 .slide.current .content {
-	opacity: 1;
-	transform: translateX(600px);
-	transition: all 1s ease-out-in 1s;
+    opacity: 1;
+    transform: translateX(600px);
+    transition: all 1s ease-out-in 1s;
 }
 
 .buttons button#next {
-	position: absolute;
-	top: 50%;
-	right: 15px;
+    position: absolute;
+    top: 50%;
+    right: 15px;
 }
 
 .buttons button#prev {
-	position: absolute;
-	top: 50%;
-	left: 15px;
+    position: absolute;
+    top: 50%;
+    left: 15px;
 }
 
 .buttons button {
-	border: 2px solid#102b5e;
-	background-color: transparent;
-	color: #102b5e;
-	cursor: pointer;
-	padding: 10px 15px;
-	border-radius: 50%;
-	outline: none;
+    border: 2px solid#102b5e;
+    background-color: transparent;
+    color: #102b5e;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 50%;
+    outline: none;
 }
 
 .buttons button:hover {
-	background-color: #102b5e;
-	color: #fff;
+    background-color: #102b5e;
+    color: #fff;
 }
 
 @media (max-width: 500px) {
-	.slide .content {
-		bottom: -300px;
-		left: 0;
-		width: 100%;
-	}
+    .slide .content {
+        bottom: -300px;
+        left: 0;
+        width: 100%;
+    }
 
-	.slide.current .content {
-		transform: translateY(-300px);
-	}
+    .slide.current .content {
+        transform: translateY(-300px);
+    }
 }
 
 /* Background Images */
 .slide:first-child {
-	background: url("../images/bg/Eason.jpg")
-		no-repeat center center/cover;
+    background: url("../images/bg/Eason.jpg") no-repeat center center/cover;
 }
+
 .slide:nth-child(2) {
-	background: url("../images/bg/Eason1.JPG")
-		no-repeat center center/cover;
+    background: url("../images/bg/Eason1.JPG") no-repeat center center/cover;
 }
+
 .slide:nth-child(3) {
-	background: url("../images/bg/Eason2.jpg")
-		no-repeat center center/cover;
+    background: url("../images/bg/Eason2.jpg") no-repeat center center/cover;
 }
+
 .slide:nth-child(4) {
-	background: url("../images/bg/Eason3.jpg")
-		no-repeat center center/cover;
+    background: url("../images/bg/Eason3.jpg") no-repeat center center/cover;
 }
+
 .slide:nth-child(5) {
-	background: url("https://www.science.org/do/10.1126/science.aax7477/abs/solar_16x9_2.jpg")
-		no-repeat center center/cover;
+    background: url("https://www.science.org/do/10.1126/science.aax7477/abs/solar_16x9_2.jpg") no-repeat center center/cover;
 }
 
 .onoffswitch {
-	position: absolute;
-	top: 10%;
-	right: 15px;
-	width: 74px;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
+    position: absolute;
+    top: 10%;
+    right: 15px;
+    width: 74px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
     margin-top: 5px;
 }
+
 .onoffswitch-checkbox {
-	display:none;
-    
+    display: none;
+
 }
+
 .onoffswitch-label {
-	display: block;
-	overflow: hidden;
-	cursor: pointer;
-	height: 36px;
-	padding: 0;
-	line-height: 36px;
-	border: 2px solid #e3e3e3;
-	border-radius: 36px;
-	background-color:#102b5e   ;
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    height: 36px;
+    padding: 0;
+    line-height: 36px;
+    border: 2px solid #e3e3e3;
+    border-radius: 36px;
+    background-color: #102b5e;
     /*#ffffff*/
-	transition: background-color 0.3s ease-in;
+    transition: background-color 0.3s ease-in;
 }
+
 .onoffswitch-label:before {
-	content: "";
-	display: block;
-	width: 36px;
-	margin: 0px;
-	background:#fff ;
+    content: "";
+    display: block;
+    width: 36px;
+    margin: 0px;
+    background: #fff;
     /* #102b5e */
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	right: 37px;
-	border: 2px solid #e3e3e3;
-	border-radius: 36px;
-	transition: all 0.3s ease-in 0s; 
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 37px;
+    border: 2px solid #e3e3e3;
+    border-radius: 36px;
+    transition: all 0.3s ease-in 0s;
     height: 35px;
 }
-.onoffswitch-checkbox:checked + .onoffswitch-label {
-	background-color: #102b5e;
+
+.onoffswitch-checkbox:checked+.onoffswitch-label {
+    background-color: #102b5e;
     /* #e94654 */
 }
-.onoffswitch-checkbox:checked + .onoffswitch-label,
-.onoffswitch-checkbox:checked + .onoffswitch-label:before {
-	border-color: #fafafa;
+
+.onoffswitch-checkbox:checked+.onoffswitch-label,
+.onoffswitch-checkbox:checked+.onoffswitch-label:before {
+    border-color: #fafafa;
     /* #e94654 */
 }
-.onoffswitch-checkbox:checked + .onoffswitch-label:before {
-	right: 0px;
+
+.onoffswitch-checkbox:checked+.onoffswitch-label:before {
+    right: 0px;
     height: 35px;
 }
 
 @keyframes move_wave {
     0% {
-      transform: translateX(0) translateZ(0) scaleY(1);
+        transform: translateX(0) translateZ(0) scaleY(1);
     }
+
     50% {
-      transform: translateX(-25%) translateZ(0) scaleY(0.55);
+        transform: translateX(-25%) translateZ(0) scaleY(0.55);
     }
+
     100% {
-      transform: translateX(-50%) translateZ(0) scaleY(1);
+        transform: translateX(-50%) translateZ(0) scaleY(1);
     }
-  }
-  .waveWrapper {
+}
+
+.waveWrapper {
     overflow: hidden;
     position: absolute;
     left: 0;
@@ -8931,8 +8934,9 @@ a.prev a.next {
     top: 0;
     margin: auto;
     z-index: 1;
-  }
-  .waveWrapperInner {
+}
+
+.waveWrapperInner {
     position: absolute;
     margin-top: 0;
     width: 100%;
@@ -8940,22 +8944,25 @@ a.prev a.next {
     height: 76%;
     bottom: -1px;
     background-image: linear-gradient(to bottom, #102b5e, #284076, #3e568f, #536ea9, #6986c3, #6999d6, #69ace8, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
-    /* background-image: linear-gradient(to top, #86A8E7 20%,#5FFBF1 80%); */
-  }
-  .bgTop {
+}
+
+.bgTop {
     z-index: 1;
     opacity: 0.5;
-  }
-  .bgMiddle {
+}
+
+.bgMiddle {
     z-index: 10;
     opacity: 0.75;
     top: 0;
-  }
-  .bgBottom {
+}
+
+.bgBottom {
     z-index: 5;
     top: 0;
-  }
-  .wave {
+}
+
+.wave {
     position: absolute;
     left: 0;
     width: 200%;
@@ -8963,26 +8970,31 @@ a.prev a.next {
     background-repeat: repeat no-repeat;
     background-position: 0 bottom;
     transform-origin: center bottom;
-  }
-  .waveTop {
+}
+
+.waveTop {
     background-size: 50% 100px;
-  }
-  .waveAnimation .waveTop {
+}
+
+.waveAnimation .waveTop {
     animation: move-wave 3s;
     -webkit-animation: move-wave 3s;
     -webkit-animation-delay: 1s;
     animation-delay: 1s;
-  }
-  .waveMiddle {
+}
+
+.waveMiddle {
     background-size: 50% 120px;
-  }
-  .waveAnimation .waveMiddle {
+}
+
+.waveAnimation .waveMiddle {
     animation: move_wave 10s linear infinite;
-  }
-  .waveBottom {
+}
+
+.waveBottom {
     background-size: 50% 100px;
-  }
-  .waveAnimation .waveBottom {
+}
+
+.waveAnimation .waveBottom {
     animation: move_wave 15s linear infinite;
-  }
-  
+}

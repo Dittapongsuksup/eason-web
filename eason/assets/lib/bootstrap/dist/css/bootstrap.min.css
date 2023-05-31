@@ -356,7 +356,7 @@ body {
     font-weight: 400;
     line-height: 1.5;
     color: #292b2c;
-    background-color: #fff
+    background-color: #fff 
 }
 
 [tabindex="-1"]:focus {
@@ -5408,7 +5408,7 @@ tbody.collapse.show {
     }
 }
 
-@media (min-width:576px) {
+/* @media (min-width:576px) {
     .card-columns {
         -webkit-column-count: 3;
         -moz-column-count: 3;
@@ -5423,7 +5423,7 @@ tbody.collapse.show {
         width: 100%;
         margin-bottom: .75rem
     }
-}
+} */
 
 .breadcrumb {
     padding: .75rem 1rem;
