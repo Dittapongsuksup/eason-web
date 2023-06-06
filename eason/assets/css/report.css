@@ -8393,13 +8393,11 @@ h6 {
 .column {
     float: left;
     width: 80%;
-    padding-top: 17px;
     padding-left: 10px;
-    height: 60px;
-    /* Should be removed. Only for demonstration */
+    height: 40px;
     text-align: left;
     align-items: center;
-    margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .column .cont {
