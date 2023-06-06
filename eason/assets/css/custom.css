@@ -1655,6 +1655,7 @@ table.supplementary tbody tr td:nth-of-type(7) {
     background-color: white;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     transition: 0.5s;
+    cursor: pointer;
   }
   .cards:not(:first-child) {
     margin-left: -80px;
@@ -1721,11 +1722,12 @@ table.supplementary tbody tr td:nth-of-type(7) {
     border: none;
   }
   .card-title {
-    padding-top: 20px;
-    padding-left: 10px;
+    padding-top: 10px;
+    text-align: center;
     font-size: 17px;
     font-weight: 600;
     font-family: "icomoon";
+    color: #000;
   }
   .card-des {
     padding-top: 10px;
